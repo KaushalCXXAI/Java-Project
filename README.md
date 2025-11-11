@@ -244,7 +244,7 @@ java -cp "bin:lib/*" com.library.swing.LibraryApp
 | `/transactions?action=issue` | GET/POST | Issue book |
 | `/transactions?action=return&id={id}` | GET | Return book |
 
-## Screenshots
+
 
 ### Web Interface
 - Modern, responsive design
@@ -258,7 +258,6 @@ java -cp "bin:lib/*" com.library.swing.LibraryApp
 - Dialog forms for data entry
 - Color-coded buttons
 
-## Development
 
 ### Adding New Features
 
@@ -267,55 +266,5 @@ java -cp "bin:lib/*" com.library.swing.LibraryApp
 3. **Servlet**: Create servlet handler in `com.library.servlet`
 4. **View**: Add JSP page in `WEB-INF/views`
 5. **Swing**: Add panel in `com.library.swing`
-
-### Code Style
-- Follow Java naming conventions
-- Use meaningful variable names
-- Add comments for complex logic
-- Handle exceptions properly
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Database Connection Failed**
-   - Verify MySQL is running
-   - Check database credentials
-   - Ensure database schema is created
-
-2. **Tomcat Deployment Issues**
-   - Check Tomcat logs
-   - Verify JDK version compatibility
-   - Ensure WAR file is built correctly
-
-3. **Swing Application Crashes**
-   - Check classpath includes MySQL driver
-   - Verify database connectivity
-   - Review console error messages
-
-## Future Enhancements
-
-- [ ] Email notifications for due dates
-- [ ] Book reservation system
-- [ ] Report generation (PDF/Excel)
-- [ ] Barcode scanning support
-- [ ] Multi-language support
-- [ ] Book recommendations
-- [ ] Mobile application
-- [ ] REST API for external integration
-
-## License
-
-This project is created for educational purposes.
-
-## Contributors
-
-- Your Name - Initial Development
-
-## Support
-
-For issues and questions, please create an issue in the project repository.
-
----
 
 **Happy Coding! 📚**
